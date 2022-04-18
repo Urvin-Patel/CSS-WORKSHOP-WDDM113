@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header a {
+	background-color: #142e83;
+	color: white;
+	position: fixed;
+	display: block;
+	padding: 10px 20px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 700;
+    text-decoration: none;
+	font-size: 30px;
+    font-style: oblique;	
+}
+
+
+main .background {
+	background-color: #172c50;
+	height: 100vh;
+	background-repeat: no-repeat;
+	position: relative; 
+	background-position: 50%;
+	width: 100vw;
+	overflow: hidden;
+}
+
+main .background img {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 100vw;
+}
+
+
+
+main .background .position {
+	position: absolute; top: 120px; 
+	text-align: center;
+}
+
+
+
+main .background .position .h1 {
+	color: white;
+	font-family: "Sedgwick AveDisplay", cursive;
+	font-size: 8vw;
+    display: block;
+    
+}
+
+
+
+main .h2 {
+	font-size: 2vw;
+	color: #df1843;
+	font-weight: bold;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	font-family: "Merriweather", serif;
+}
+
+main .h3 {
+	background-color: #0a8f96;
+	color: white;
+	padding: 10px;
+	font-family: "Merriweather", serif;
+	font-size: 2.6vw;
+	width: fit-content;
+	margin: 0 auto 0.5rem;
+}
+
+main .h4 {
+	color: white;
+	font-family: "Merriweather", serif;
+	font-size: 1.8vw;
+}
